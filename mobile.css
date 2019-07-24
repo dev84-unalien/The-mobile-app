@@ -1,1 +1,91 @@
-{\rtf1}
+div,
+input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#cadre {
+  background-color: rgb(236, 155, 61);
+  width: 100vw;
+  height: 95vh;
+}
+#header {
+  width: 80vw;
+  height: 20vh;
+  font-family: "Hanalei", cursive;
+  font-size: 7em;
+}
+#body {
+  height: 20vh;
+  width: 100vw;
+}
+#texte {
+  width: 70vw;
+  height: 9vh;
+}
+#title {
+  background-color: black;
+  opacity: 0.7;
+  width: 100vw;
+  height: 9vh;
+}
+#button {
+  width: 80vw;
+  height: 50vh;
+
+}
+button {
+  width: 20vw;
+  height: 10vh;
+  background-color: pink;
+  border-radius: 50px;
+  font-size: 3em;
+  font-family: "Geostar", cursive;
+  cursor: pointer;
+}
+.taille {
+  width: 25vw;
+  height: 10vh;
+}
+#question {
+  width: 10vw;
+  height: 7vh;
+}
+input {
+  font-family: "Bonbon", cursive;
+  font-size: 2em;
+  width: 35vw;
+  height: 6vh;
+  border-radius: 80%;
+  text-align: center;
+}
+::placeholder {
+  font-size: 1em;
+  text-align: center;
+}
+#fb {
+  border-radius: 50px;
+  font-family: 'Butcherman', cursive;
+  color: blue;
+  font-size:2em;
+ background-color:lightgrey;
+ cursor: pointer;
+}
+#title{
+    color:white;
+    font-size: 5em;
+}
+#texte{
+    flex-wrap: no-wrap;
+    font-size:1.2em;
+}
+span{
+    font-weight: bolder;
+}
+#question{
+    color:white;
+    font-size: 1.3em;
+    cursor: pointer;
+}
